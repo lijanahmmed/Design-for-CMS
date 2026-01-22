@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Logo</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Google font Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      body {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Navbar Section -->
+      <nav class="w-10/12 mx-auto py-5 flex justify-between items-center">
+        <div class="flex items-center gap-5">
+          <img class="w-10" src="assets/logo.png" alt="" />
+          <p class="text-3xl font-bold">Logo</p>
+        </div>
+        <div>
+          <ul class="flex items-center gap-5 px-3 py-2 bg-purple-100 rounded-3xl">
+            <li class="flex items-center gap-1 p-2 rounded-3xl bg-white">
+              <i class="fa-regular fa-house"></i><a href="">Home</a>
+            </li>
+            <li class="text-purple-900 font-semibold"><a href="">About Us</a></li>
+            <li class="text-purple-900 font-semibold"><a href="">Reviews</a></li>
+            <li class="text-purple-900 font-semibold"><a href="">Products</a></li>
+            <li class="text-purple-900 font-semibold"><a href="">Blog</a></li>
+          </ul>
+        </div>
+        <div class="flex items-center gap-5">
+            <button>Sign in</button>
+            <button class="p-3 border border-purple-600 rounded-3xl">Sign up free</button>
+        </div>
+      </nav>
+    </header>
+  </body>
+</html>
